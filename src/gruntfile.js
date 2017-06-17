@@ -63,7 +63,7 @@ module.exports = function(grunt) {
             },
             css: {
                 files: ['sass/*.scss'],
-                tasks: ['sass', 'bs-inject', 'cssmin'],
+                tasks: ['sass', 'bs-inject', 'autoprefixer' , 'cssmin'],
                 options: {
                     livereload: true,
                 }
@@ -106,7 +106,7 @@ module.exports = function(grunt) {
 
     /* Bs init works only on html static files. Please comment bs-init property if you work on a php project */
     grunt.registerTask('default', ['bs-init', 'watch']);
-    grunt.registerTask('default', ['sass', 'cssmin', 'autoprefixer' , 'concat']);
+    grunt.registerTask('default', ['sass', 'autoprefixer' , 'cssmin' , 'concat']);
 
 
 };
