@@ -1,0 +1,27 @@
+{
+  "name": "akaZsu-workflow",
+  "version": "0.0.1",
+  "description": "Task manager for a better workflow. akaZsu",
+  "main": "gruntfile.js",
+  "dependencies": {
+    "browser-sync": "^2.17.5",
+    "grunt": "^0.4.5"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.8.0",
+    "grunt": "^0.4.5",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-concat-css": "^0.3.1",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-cssmin": "^0.14.0",
+    "grunt-contrib-sass": "^0.9.2",
+    "grunt-contrib-uglify": "^0.9.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-install-dependencies": "^0.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Razvan Frandes",
+  "license": "Cristopher"
+}

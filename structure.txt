@@ -1,0 +1,48 @@
+dist
+	- css
+		- style.min.css
+
+	- js
+		- scripts.min.js
+
+	-img
+		- akaZsu.jpg
+
+inc
+	- resources.php
+	- wp-settings.php
+
+templates
+	- template-gallery.php
+	- template-single-post.php
+
+src
+	- 
+	- assets
+		- js
+			- plugins
+				- isotope
+				- packery
+			- main.js
+		- sass
+			- variables
+				- variables.scss
+			- components
+				- footer.scss
+				- header.scss
+				- common.scss
+				- fonts.scss
+				- animations.scss
+			- section
+				- galery.scss
+				- home.scss
+				- contact.scss
+				- single.scss
+				- comments.scss
+			- plugins
+				- isotope.scss
+				- packery.scss	
+			style.scss		
+
+	- grunt.js
+	- grunt.json
