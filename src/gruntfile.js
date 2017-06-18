@@ -24,7 +24,7 @@ module.exports = function(grunt) {
         // Autoprefixer
         autoprefixer: {
             options: {
-                browsers: ['> 0.001%']
+                browsers: ['> 0.000001%']
             },
             no_dest_single: {
                 src: '../dist/css/style.css'
@@ -62,7 +62,7 @@ module.exports = function(grunt) {
                 spawn: false // Very important, don't miss this
             },
             css: {
-                files: ['sass/*.scss'],
+                files: ['sass/*.scss' , 'sass/**/*.scss'],
                 tasks: ['sass', 'bs-inject', 'autoprefixer' , 'cssmin'],
                 options: {
                     livereload: true,
